@@ -1,0 +1,48 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+$logo-width: 10.75rem; // Largura da imagem da logo
+$logo-height: auto; // Altura da imagem da logo
+$white-color: #FFFFFF;
+$page-color-text: #FFFFFF;
+$color-card: #0089CC;
+$color-card-image: #7DC8E1;
+$blue-light: #7dc8e1a1;
+
+body,html {
+    padding-top: 1.5rem;
+    background-color: $white-color;
+    color: $page-color-text;
+    overflow-x: hidden;
+  }
+
+.card-title {
+    background-color: $color-card;
+    background-size: 100% auto;
+    text-align: center;
+    color: $white-color;
+    padding: 44px;
+    margin-top: 35px !important;
+    position: relative;
+}
+
+.card-image {
+    background-color: $color-card-image;
+    width: 10%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+
+mat-card-title {
+    text-transform: uppercase;
+    font-size: 40px;
+    word-spacing: 20%;
+    line-height: 100%;
+}
+
+.mat-mdc-card-header {
+    display: flex;
+    padding: 17px 157px 0;
+}

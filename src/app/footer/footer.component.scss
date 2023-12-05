@@ -1,0 +1,61 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+.footer {
+    background-color: #FF7028;
+    padding: 20px;
+}
+
+/* Estilos para telas grandes (desktops) */
+@media (min-width: 768px) {
+    .text-left {
+        float: right;
+    }
+
+    .custom-hr {
+        border-top: 2px solid #F99B6C;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .img-size-logo {
+        width: 12%;
+        margin-left: 20px !important;
+    }
+
+    .footer-list {
+        text-decoration: none;
+        color: #ffffff;
+        text-transform: uppercase;
+        line-height: 39px;
+    }
+
+    .footer-list-style {
+        margin-top: -68px !important;
+    }
+
+    .social-list {
+        margin-top: -166px;
+        margin-left: 850px !important;
+    }
+
+    .social-list-icon {
+        margin-top: -137px;
+        margin-left: 860px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .text-left {
+        float: none;
+    }
+
+    .img-size-logo {
+        max-width: 50%;
+        height: auto;    }
+
+    .footer-list {
+        text-decoration: none;
+        color: #ffffff;
+        text-transform: uppercase;
+        line-height: 39px;    }
+}

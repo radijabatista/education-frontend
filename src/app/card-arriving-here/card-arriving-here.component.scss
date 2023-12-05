@@ -1,0 +1,38 @@
+.img-size {
+    width: 90%;
+}
+
+.custom-btn-size {
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 0px 12px;
+    font-size: 14px;
+    margin-left: 2%;
+    margin-bottom: 1%;
+}
+
+.custom-btn-size:focus {
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 0px 12px;
+    font-size: 14px;
+    outline: none;
+}
+
+.title2 {
+    line-height: 40px;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.subtitle {
+    color: black;
+    text-align: left;
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 17px;
+  }

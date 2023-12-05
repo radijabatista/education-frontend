@@ -1,0 +1,24 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+$logo-width: 10.75rem; // Largura da imagem da logo
+$logo-height: auto; // Altura da imagem da logo
+$white-color: #FFFFFF;
+$page-color-text: #FFFFFF;
+$color-button: #0389cd;
+$blue-light: #7dc8e1a1;
+
+body,html {
+    padding-top: 1.5rem;
+    background-color: $white-color;
+    color: $page-color-text;
+    overflow-x: hidden;
+  }
+
+.onda {
+  background-color: $blue-light;
+  background-size: 100% auto;
+  text-align: center;
+  color: $white-color;
+  padding: 44px;
+  margin-top: 35px !important;
+}

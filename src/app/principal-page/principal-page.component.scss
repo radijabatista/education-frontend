@@ -1,0 +1,85 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+$logo-width: 10.75rem; // Largura da imagem da logo
+$logo-height: auto; // Altura da imagem da logo
+$page-color: #FF7028; // Cor personalizada
+$white-color: #FFFFFF;
+$page-color-text: #FFFFFF;
+$color-button: #0389cd;
+$orange-light: #fff6e8;
+
+body,html {
+    padding-top: 1.5rem;
+    background-color: $white-color;
+    color: $page-color-text;
+    overflow-x: hidden;
+  }
+
+.spacing-itens-navbar {
+  margin-left: 87% !important;
+}
+
+.onda {
+  background-color: $orange-light;
+  background-size: 100% auto;
+  text-align: center;
+  color: $white-color;
+  padding: 44px;
+  margin-top: 35px !important;
+}
+
+
+.title {
+  text-align: left;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.subtitle {
+  color: black;
+  text-align: left;
+}
+
+.banner {
+  background-color: #94461A;
+  padding: 20px;
+  border-radius: 5px;
+  height: 480px;
+}
+
+.centro{
+  text-align: center;
+  margin-top: 200px;
+}
+
+
+.card-image img {
+  width: 100%;
+  height: auto;
+}
+
+.card {
+  padding: 10px;
+}
+
+.carousel-indicators .active {
+  background-color: #2d2d32;
+}
+
+.carousel-indicators li,
+.carousel-indicators [data-bs-target] {
+  background-color: #6c6767
+}
+
+.carousel-indicators li::marker {
+  content: "";
+  background-color: transparent;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000f' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+ }
+ 
+ .carousel-control-next-icon {
+   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+ }

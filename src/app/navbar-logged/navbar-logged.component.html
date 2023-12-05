@@ -1,0 +1,34 @@
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="../../assets/../../assets/images/logo-mobile.png" alt="Mobile Logo"
+                class="d-md-none logo-img-mobile">
+            <img src="../../assets/../../assets/images/logo-correto 1.svg" alt="Web Logo"
+                class="d-none d-md-inline logo-img">
+        </a>
+        <button class="navbar-toggler first-button" type="button" (click)="toggleMenu()">
+            <div class="animated-icon2"><span></span><span></span><span></span></div>
+        </button>
+        <div class="collapse navbar-collapse" [ngClass]="{'show': isOpen}">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="dropdown nav-item">
+                    <a href="#" class="nav-link font-header">Meus cursos <img
+                            src="../../assets/../../assets/images/white-down-arrow-icon-9 1.svg"></a>
+                    <div class="dropdown-content dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Curso Programacao</a>
+                        <a class="dropdown-item" href="#">Curso Python</a>
+                        <a class="dropdown-item" href="#">Curso Java</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link font-header" href="#" id="contato-link">Contato</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">
+                        <img src="../../assets/images/image 2.svg" class="profile-img nav-link" href="#" id="profile">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

@@ -1,0 +1,30 @@
+.custom-btn {
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 0px 22px;
+    font-size: 14px;
+    margin-left: 2%;
+    margin-bottom: 1%;
+  }
+  
+  .custom-btn:focus {
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 0px 22px;
+    font-size: 14px;
+    outline: none;
+    /* Remover a borda de foco padrão do navegador */
+  }
+  
+  .title2 {
+    line-height: 40px;
+    color: black;
+    font-size: 1.2rem;
+  }
+  
+  .card-title {
+    font-weight: 700;
+    font-size: 17px;
+  }
