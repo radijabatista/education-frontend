@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { LoginPageComponent } from './login-page.component';
+import { CoursesPageComponent } from './courses-page.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from '../app-routing.module';
@@ -18,4 +18,4 @@ import { AppRoutingModule } from '../app-routing.module';
   ],
 
 })
-export class LoginPageModule { }
+export class CoursesPageModule { }

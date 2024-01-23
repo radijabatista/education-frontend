@@ -1,0 +1,69 @@
+<mat-stepper #stepper>
+  <mat-step [stepControl]="firstFormGroup" errorMessage="Complete a etapa anterior.">
+    <form [formGroup]="firstFormGroup">
+      <div class="section-spacing"></div>
+      <ng-template matStepLabel>Informações pessoais</ng-template>
+      <mat-form-field class="wide-input">
+        <mat-label>Informe seu nome completo</mat-label>
+        <input matInput placeholder="Nome completo" [formControl]="fullName" required>
+        <mat-error *ngIf="fullName.invalid">{{ getErrorMessageName() }}</mat-error>
+      </mat-form-field>
+
+      <mat-form-field class="wide-input">
+        <mat-label>Escreva seu CPF</mat-label>
+        <input matInput placeholder="000.000.000-00" [formControl]="cpf" required>
+        <mat-error *ngIf="cpf.invalid">{{ getErrorMessageCPF() }}</mat-error>
+      </mat-form-field>
+      <div>
+        <div class="section-spacing"></div>
+        <button color="primary" mat-button matStepperNext>Proximo</button>
+      </div>
+    </form>
+  </mat-step>
+
+  <mat-step>
+    <form [formGroup]="secondFormGroup" errorMessage="Complete a etapa anterior">
+      <div class="section-spacing"></div>
+      <ng-template matStepLabel>Dados de contato</ng-template>
+      <mat-form-field class="wide-input">
+        <mat-label>Escreva seu email </mat-label>
+        <input matInput placeholder="pat@example.com" [formControl]="email" required>
+        <mat-error *ngIf="email.invalid">{{ getErrorMessageEmail() }}</mat-error>
+      </mat-form-field>
+
+      <mat-form-field class="wide-input">
+        <mat-label>Informe o número de contato (+DDI DDD Número)</mat-label>
+        <input matInput placeholder="Número de contato" [formControl]="phoneNumber" required>
+        <mat-error *ngIf="phoneNumber.invalid">{{ getErrorMessagePhoneNumber() }}</mat-error>
+      </mat-form-field>
+      <div>
+        <div class="section-spacing"></div>
+        <button mat-button color="primary" matStepperPrevious>Voltar</button>
+        <button color="primary" mat-button matStepperNext>Proximo</button>
+      </div>
+    </form>
+  </mat-step>
+
+  <mat-step>
+    <form [formGroup]="passwordFormGroup">
+      <div class="section-spacing"></div>
+      <ng-template matStepLabel>Segurança</ng-template>
+      <mat-form-field class="wide-input">
+        <mat-label>Crie sua senha</mat-label>
+        <input matInput placeholder="Crie sua senha" [formControl]="password" required>
+        <mat-error *ngIf="password.invalid">{{ getErrorMessagePassword() }}</mat-error>
+      </mat-form-field>
+
+      <mat-form-field class="wide-input">
+        <mat-label>Repita a nova senha</mat-label>
+        <input matInput placeholder="Repita a nova senha" [formControl]="confirmPassword" required>
+        <mat-error *ngIf="confirmPassword.invalid">{{ getErrorMessageConfirmPassword() }}</mat-error>
+      </mat-form-field>
+      <div>
+        <div class="section-spacing"></div>
+        <button mat-button color="primary" matStepperPrevious>Voltar</button>
+        <button routerLink="/waiting-page" mat-button color="primary">Proximo</button>
+      </div>
+    </form>
+  </mat-step>
+</mat-stepper>

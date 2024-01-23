@@ -1,0 +1,22 @@
+<div class="example-container">
+
+  <p class="texts-titles-form">Email</p>
+  <mat-form-field class="wide-input">
+    <mat-label>Escreva seu email</mat-label>
+    <input matInput placeholder="pat@example.com" [formControl]="email" required>
+    <mat-error *ngIf="email.invalid">{{ getErrorMessageEmail() }}</mat-error>
+  </mat-form-field>
+
+  <p class="texts-titles-form">Senha</p>
+  <mat-form-field class="wide-input">
+    <mat-label>Digite sua senha</mat-label>
+    <input matInput type="password" placeholder="Sua senha" [formControl]="password" required>
+    <mat-error *ngIf="password.invalid">{{ getErrorMessagePassword() }}</mat-error>
+  </mat-form-field>
+
+  <div class="bottom-content">
+    <div class="forgot-password">
+      <a href="#">Esqueceu a sua senha?</a>
+    </div>
+
+  </div>

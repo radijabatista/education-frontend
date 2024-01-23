@@ -20,11 +20,16 @@
   
   .title2 {
     line-height: 40px;
-    color: black;
+    color: white;
     font-size: 1.2rem;
   }
   
   .card-title {
     font-weight: 700;
     font-size: 17px;
+    color: white;
+  }
+  
+  .bg-light {
+    background-color: #00000061 !important;
   }

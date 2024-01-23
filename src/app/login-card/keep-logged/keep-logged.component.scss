@@ -1,0 +1,14 @@
+.example-section {
+  display: flex;
+  justify-content: space-between;
+  margin-left: -161px;
+}
+
+.example-margin {
+  margin: 0 12px;
+}
+
+.mat-mdc-checkbox.mat-primary {
+  --mdc-checkbox-selected-focus-icon-color: #0389cd;
+  --mdc-checkbox-selected-icon-color: #0389cd;
+}

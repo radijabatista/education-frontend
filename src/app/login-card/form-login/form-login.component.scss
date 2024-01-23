@@ -1,0 +1,45 @@
+.example-container {
+  margin-left: -139px;
+}
+
+.texts-titles-form {
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.wide-input {
+  width: 165%;
+}
+
+.forgot-password {
+  margin-bottom: 10px;
+}
+
+.forgot-password a {
+  color: #5A5858;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
+
+.login-button {
+  margin-top: 20px;
+}
+
+.bottom-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.left-content {
+  display: flex;
+}
+
+.right-content {
+  display: flex;
+  margin-left: auto;
+}

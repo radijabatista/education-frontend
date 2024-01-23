@@ -22,4 +22,8 @@ export class NavbarNoLoggedComponent implements OnInit {
   redirectToLogin() {
     this.router.navigate(['/login']);
   }
+
+  redirectToRegister() {
+    this.router.navigate(['/register']);
+  }
 }

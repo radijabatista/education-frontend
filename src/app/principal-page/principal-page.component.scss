@@ -2,15 +2,15 @@
 
 $logo-width: 10.75rem; // Largura da imagem da logo
 $logo-height: auto; // Altura da imagem da logo
-$page-color: #FF7028; // Cor personalizada
+$page-color: #050720; // Cor personalizada
 $white-color: #FFFFFF;
 $page-color-text: #FFFFFF;
 $color-button: #0389cd;
-$orange-light: #fff6e8;
+$orange-light: #050720;
 
 body,html {
     padding-top: 1.5rem;
-    background-color: $white-color;
+    background-color: $page-color;
     color: $page-color-text;
     overflow-x: hidden;
   }
@@ -23,7 +23,7 @@ body,html {
   background-color: $orange-light;
   background-size: 100% auto;
   text-align: center;
-  color: $white-color;
+  color: $page-color-text;
   padding: 44px;
   margin-top: 35px !important;
 }
@@ -31,17 +31,15 @@ body,html {
 
 .title {
   text-align: left;
-  color: black;
   font-size: 1.2rem;
 }
 
 .subtitle {
-  color: black;
   text-align: left;
 }
 
 .banner {
-  background-color: #94461A;
+  background-color: #FE4C58;
   padding: 20px;
   border-radius: 5px;
   height: 480px;
@@ -82,4 +80,8 @@ body,html {
  
  .carousel-control-next-icon {
    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+ }
+
+ .button-customized {
+  border-radius: 5px;
  }

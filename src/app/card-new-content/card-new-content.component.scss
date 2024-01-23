@@ -22,17 +22,22 @@
 }
 
 .subtitle {
-    color: black;
+    color: white;
     text-align: left;
 }
 
 .title2 {
     line-height: 40px;
-    color: black;
+    color: white;
     font-size: 1.2rem;
 }
 
 .card-title {
     font-weight: 700;
     font-size: 17px;
+    color: white;
+  }
+
+  .card {
+    --bs-card-bg: #00000061;
   }
