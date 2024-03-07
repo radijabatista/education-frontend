@@ -48,5 +48,9 @@ mat-card-title {
 }
 
 .card {
-    --bs-card-bg: #00000061;
+    --bs-card-bg: #2b303566;
+  }
+
+  .card-text {
+    color: white;
   }
